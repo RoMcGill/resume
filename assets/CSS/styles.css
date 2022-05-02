@@ -17,7 +17,23 @@
 .ui-menu-color-download{
     background-color: #525252;
 }
+/*---------------------------------------------------- special paddings/margin/text*/
 
+h1,
+h2,
+h3,
+h4{
+    margin: 0;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.general-sub{
+    font-weight: 300;
+    color: #fafafa;
+}
 
 /*----------------------------------------------------Heading*/
 header{
@@ -60,6 +76,11 @@ header{
 .menucontainer{
     font-size: 0;
 }
+
+#nav{
+    margin: 0;
+}
+
 #nav li{
     font-size: 14px;
     padding: 0;
@@ -69,6 +90,7 @@ header{
     height: 120px;
     text-align: center;
     padding: 0;
+
 }
 
 .menuitem a{
@@ -83,4 +105,68 @@ header{
     display: block;
     color: #fafafa;
     font-size: 26px;
+}
+/*----------------------------------------------------Hover*/
+
+.hvr-sweep-to-bottom:before {
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 120px;
+
+}
+/*----------------------------------------------------Footer*/
+
+footer{
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+.cv-pdf i{
+    font-size: 18px;
+    color: #fafafa;
+    text-align: center;
+    padding-left: 5px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+
+}
+
+.cv-pdf i:hover{
+    color: #e84610;
+}
+
+.social-links{
+    padding-bottom: 15px;
+}
+
+.social-links li a {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+
+}
+.social-links li a:hover{
+    background: #e84610;
+}
+
+
+#footer-details{
+    padding: 20px;
 }
