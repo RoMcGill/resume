@@ -1,0 +1,39 @@
+
+/*----------------------------------------------------Colours*/
+
+.bg-color-name-title{
+    background-color: #676767;
+}
+/*----------------------------------------------------Heading*/
+header{
+    margin: 0;
+}
+.heading{
+    margin-left: 50px;
+}
+
+.logo{
+    background: url(../images/profile-photo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.name{
+    font-size: 46px;
+    font-weight: 100;
+    margin-top: 50px;
+    color: #fff;
+}
+
+.title{
+    font-weight: 200;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    color: #fff;
+}
