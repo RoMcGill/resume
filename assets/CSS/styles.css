@@ -12,6 +12,10 @@
     background-color: #9b59b6;
 }
 
+.bg-color-contact{
+    background-color: #fff;
+}
+
 .bg-color-personal-info{
     background-color: #f4f4f4;
 }
@@ -309,4 +313,39 @@ footer{
 }
 .history-items{
     margin-bottom: 30px;
+}
+
+/*----------------------------------------------------contact form*/
+
+.contact-heading{
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form{
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+
+}
+
+button[type="submit"]{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #e84610;
+
+}
+/*----------------------------------------------------media query*/
+
+@media(min-width:992px) {
+    .center-form{
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+
+    }
+    
 }
