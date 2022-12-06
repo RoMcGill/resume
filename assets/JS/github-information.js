@@ -11,3 +11,4 @@ function fetchGitHubInformation(event) {
             <img src="assets/css/loader.gif" alt="loading..." />
         </div>`);
 }
+

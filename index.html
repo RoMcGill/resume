@@ -14,13 +14,14 @@
     <header>
         <div class="row no-gutters">
             <a href="index.html" class="col-md-4 logo">
-            
+
             </a>
             <div class="col-md-8">
                 <div class="row no-gutters bg-color-name-title">
                     <div class="col heading">
                     <h1 class="name">Ronan McGill</h1>
                     <h2 class="title">Full Stack Developer</h2>
+
                     </div>
                 </div>
                 <div class="row no-gutters">
@@ -186,7 +187,10 @@ About Me
 
             </div>
         </div>
- 
+        <div id="bubble-wrapper">
+
+
+        </div>
     </section>
     <footer class="container-fluid">
         <div id="footer-details" class="row">
@@ -226,7 +230,7 @@ About Me
                             Instagram
                         </a>
                     </li>
-                    
+
                 </ul>
 
             </div>
@@ -235,3 +239,21 @@ About Me
     </footer>
 </body>
 </html>
+<script>
+    const wrapper = document.getElementById("bubble-wrapper")
+
+const animateBubble = x =>{
+
+    const bubble = document.createElement("div");
+
+    bubble.className = "bubble";
+
+    bubble.style.left = `${x}px`;
+
+    wrapper.appendChild(bubble);
+
+    setTimeout(()=> wrapper.removeChild(bubble), 2000);
+}
+
+window.onmousemove = e => animateBubble(e.clientX);
+</script>
